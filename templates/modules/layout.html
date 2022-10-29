@@ -8,7 +8,7 @@
     <link rel="stylesheet" th:href="@{/assets/dist/style.css}" href="./assets/dist/style.css" />
     <script th:src="@{/assets/dist/main.iife.js}"></script>
   </head>
-  <body th:style="'background-color: '+${theme.config.styles.background_color}">
+  <body>
     <th:block th:replace="${content}" />
   </body>
 </html>
