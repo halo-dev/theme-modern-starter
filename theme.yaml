@@ -9,8 +9,8 @@ spec:
     website: https://halo.run
   description: A development starter theme with Vite Ecosystem for Halo
   logo: https://halo.run/logo
-  website: https://github.com/halo-sigs/theme-modern-starter
-  repo: https://github.com/halo-sigs/theme-modern-starter.git
+  website: https://github.com/halo-dev/theme-modern-starter
+  repo: https://github.com/halo-dev/theme-modern-starter.git
   settingName: "theme-modern-starter-setting"
   configMapName: "theme-modern-starter-configMap"
   version: 1.0.0

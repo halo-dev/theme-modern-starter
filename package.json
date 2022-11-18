@@ -13,9 +13,9 @@
     "halo",
     "halo-theme"
   ],
-  "homepage": "https://github.com/halo-sigs/theme-modern-starter#readme",
+  "homepage": "https://github.com/halo-dev/theme-modern-starter#readme",
   "bugs": {
-    "url": "https://github.com/halo-sigs/theme-modern-starter/issues"
+    "url": "https://github.com/halo-dev/theme-modern-starter/issues"
   },
   "author": {
     "name": "Halo OSS Organization",
@@ -31,7 +31,7 @@
   ],
   "license": "GPL-3.0",
   "repository": {
-    "url": "https://github.com/halo-sigs/theme-modern-starter",
+    "url": "https://github.com/halo-dev/theme-modern-starter",
     "type": "git"
   },
   "devDependencies": {
