@@ -1,10 +1,18 @@
 /** @type {import('tailwindcss').Config} */
+const { Icons } = require("tailwindcss-plugin-icons");
 module.exports = {
   content: ["./templates/**/*.html", "./src/main.ts"],
   theme: {
     extend: {},
   },
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [
+    require("@tailwindcss/typography"),
+    Icons(() => ({
+      tabler: {
+        includeAll: true,
+      },
+    })),
+  ],
   safelist: [
     "prose-sm",
     "prose-base",
