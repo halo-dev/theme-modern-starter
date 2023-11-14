@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="https://www.thymeleaf.org" th:replace="modules/layout :: html(content = ~{::content})">
+<html xmlns:th="https://www.thymeleaf.org" th:replace="~{modules/layout :: html(content = ~{::content})}">
   <th:block th:fragment="content">
     <div class="mx-auto flex h-screen w-96 flex-col items-center justify-center">
       <ul class="w-full list-inside list-disc">
