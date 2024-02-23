@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   alpinejs:
     specifier: ^3.13.2
@@ -12,7 +8,10 @@ dependencies:
 devDependencies:
   '@iconify-json/tabler':
     specifier: ^1.1.96
-    version: 1.1.96
+    version: 1.1.105
+  '@iconify/tailwind':
+    specifier: ^0.1.4
+    version: 0.1.4
   '@tailwindcss/typography':
     specifier: ^0.5.10
     version: 0.5.10(tailwindcss@3.3.5)
@@ -52,9 +51,6 @@ devDependencies:
   tailwindcss:
     specifier: ^3.3.5
     version: 3.3.5
-  tailwindcss-plugin-icons:
-    specifier: ^2.2.0
-    version: 2.2.0(tailwindcss@3.3.5)
   typescript:
     specifier: ^4.9.5
     version: 4.9.5
@@ -329,8 +325,14 @@ packages:
     resolution: {integrity: sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==}
     dev: true
 
-  /@iconify-json/tabler@1.1.96:
-    resolution: {integrity: sha512-BozRq6622JUEOBlZhF/l6UxqwHoWFiaLP6UCH9/mOvuek/tZureuQ2DSEaz5SdpKJamtBQjtJCH6zzsim6YKUQ==}
+  /@iconify-json/tabler@1.1.105:
+    resolution: {integrity: sha512-USJbNfa0fAHBLilxTKn70wkvFnopmfcomfpqD0ul/69uyZnonztHhyrbM8MI9Ua4eYXaPymoB7tuZ+Ionx6xfg==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify/tailwind@0.1.4:
+    resolution: {integrity: sha512-U7RzcU2fkwOfMDsGQ3mtpLIaApSnqb+vgcJJknPPbg8/NF5s7tI1o5otEMfcpnLGk4PbYB8bxmKTz7IJVUlU2Q==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -1641,14 +1643,6 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /tailwindcss-plugin-icons@2.2.0(tailwindcss@3.3.5):
-    resolution: {integrity: sha512-gtAYh5eAIazE0AmqmD+I//yrpQGHqgS6zkxE2ftlMHZuQURiR4HGpjtOtyJeNqKmVmCPgzqVF+R+hB9QZWzVjg==}
-    peerDependencies:
-      tailwindcss: 3.x
-    dependencies:
-      tailwindcss: 3.3.5
-    dev: true
-
   /tailwindcss@3.3.5:
     resolution: {integrity: sha512-5SEZU4J7pxZgSkv7FP1zY8i2TIAOooNZ1e/OGtxIEv6GltpoiXUqWvLy89+a10qYTB1N5Ifkuw9lqQkN9sscvA==}
     engines: {node: '>=14.0.0'}
@@ -1826,3 +1820,7 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false

@@ -4,6 +4,7 @@
     <div class="mx-auto flex h-screen w-96 flex-col items-center justify-center">
       <ul class="w-full list-inside list-disc">
         <li th:each="post : ${posts.items}">
+          <span class="icon-[tabler--box]"></span>
           <a
             th:text="${post.spec.title}"
             th:href="${post.status.permalink}"

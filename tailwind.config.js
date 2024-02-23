@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-const { Icons } = require("tailwindcss-plugin-icons");
+const { addDynamicIconSelectors } = require('@iconify/tailwind');
 module.exports = {
   content: ["./templates/**/*.html", "./src/main.ts"],
   theme: {
@@ -7,11 +7,7 @@ module.exports = {
   },
   plugins: [
     require("@tailwindcss/typography"),
-    Icons(() => ({
-      tabler: {
-        includeAll: true,
-      },
-    })),
+    addDynamicIconSelectors(),
   ],
   safelist: [
     "prose-sm",
