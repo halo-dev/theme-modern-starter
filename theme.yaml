@@ -5,13 +5,16 @@ metadata:
 spec:
   displayName: Modern Starter
   author:
-    name: Halo OSS Organization
-    website: https://halo.run
+    name: Halo
+    website: https://github.com/halo-dev
   description: A development starter theme with Vite Ecosystem for Halo
-  logo: https://halo.run/logo
-  website: https://github.com/halo-dev/theme-modern-starter
-  repo: https://github.com/halo-dev/theme-modern-starter.git
+  logo: https://www.halo.run/logo
+  homepage: https://github.com/halo-dev/theme-modern-starter#readme
+  repo: https://github.com/halo-dev/theme-modern-starter
   settingName: "theme-modern-starter-setting"
   configMapName: "theme-modern-starter-configMap"
-  version: 1.0.0
-  require: 2.0.0
+  version: "1.0.0"
+  requires: "2.0.0"
+  license:
+    - name: "GPL-3.0"
+      url: "https://github.com/halo-dev/theme-modern-starter/blob/main/LICENSE"
