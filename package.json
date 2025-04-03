@@ -1,64 +1,42 @@
 {
-  "description": "A development starter theme with modern front-end technology stack for Halo",
-  "keywords": [
-    "halo",
-    "halo-theme"
-  ],
-  "homepage": "https://github.com/halo-dev/theme-modern-starter#readme",
-  "bugs": {
-    "url": "https://github.com/halo-dev/theme-modern-starter/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/halo-dev/theme-modern-starter"
-  },
   "license": "GPL-3.0",
-  "author": {
-    "name": "Halo",
-    "email": "hi@halo.run",
-    "url": "https://github.com/halo-dev"
-  },
-  "maintainers": [
-    {
-      "name": "Ryan Wang",
-      "email": "i@ryanc.cc",
-      "url": "https://github.com/ruibaby"
-    }
-  ],
   "scripts": {
-    "build": "tsc && vite build",
+    "build": "tsc && vite build && theme-package",
+    "build-only": "tsc && vite build",
     "dev": "vite build --watch",
     "lint": "eslint ./src --ext .js,.cjs,.mjs,.ts,.cts,.mts --ignore-path .gitignore",
-    "prettier": "prettier --write './**/*.{ts,json,yaml,yml,html}'",
-    "prepare": "husky"
-  },
-  "dependencies": {
-    "alpinejs": "^3.13.7"
+    "prepare": "husky",
+    "prettier": "prettier --write './**/*.{ts,json,yaml,yml,html}'"
   },
   "lint-staged": {
     "*.{ts,json,yaml,yml,html}": [
       "prettier --write"
     ]
   },
+  "dependencies": {
+    "alpinejs": "^3.14.9"
+  },
   "devDependencies": {
-    "@iconify-json/tabler": "^1.1.109",
+    "@halo-dev/theme-package-cli": "^1.0.0",
+    "@iconify-json/tabler": "^1.2.17",
     "@iconify/tailwind": "^0.1.4",
-    "@tailwindcss/typography": "^0.5.10",
-    "@types/alpinejs": "^3.13.9",
-    "@types/node": "^18.19.26",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/alpinejs": "^3.13.11",
+    "@types/node": "^18.19.86",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
-    "autoprefixer": "^10.4.18",
-    "eslint": "^8.57.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^8.57.1",
     "eslint-config-prettier": "^8.10.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "husky": "^9.0.11",
-    "lint-staged": "^15.2.2",
-    "postcss": "^8.4.37",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.0",
+    "postcss": "^8.5.3",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.1.13",
-    "tailwindcss": "^3.4.1",
+    "tailwindcss": "^3.4.17",
     "typescript": "^4.9.5",
-    "vite": "^5.1.6"
-  }
+    "vite": "^5.4.16"
+  },
+  "packageManager": "pnpm@10.6.5+sha512.cdf928fca20832cd59ec53826492b7dc25dc524d4370b6b4adbf65803d32efaa6c1c88147c0ae4e8d579a6c9eec715757b50d4fa35eea179d868eada4ed043af"
 }
