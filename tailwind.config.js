@@ -1,14 +1,11 @@
 /** @type {import('tailwindcss').Config} */
-const { addDynamicIconSelectors } = require('@iconify/tailwind');
+const { addDynamicIconSelectors } = require("@iconify/tailwind");
 module.exports = {
   content: ["./templates/**/*.html", "./src/main.ts"],
   theme: {
     extend: {},
   },
-  plugins: [
-    require("@tailwindcss/typography"),
-    addDynamicIconSelectors(),
-  ],
+  plugins: [require("@tailwindcss/typography"), addDynamicIconSelectors()],
   safelist: [
     "prose-sm",
     "prose-base",

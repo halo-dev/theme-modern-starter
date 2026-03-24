@@ -6,12 +6,11 @@
 
 ## 特性
 
-- 使用 [Vite](https://vitejs.dev/) 进行静态资源构建。
+- 使用 [Vite+](https://viteplus.dev/)。
 - 使用 [Tailwind CSS](https://tailwindcss.com/) 进行样式开发。
 - 使用 [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin) 作为内容样式。
 - 使用 [Iconify](https://iconify.design/) + [@iconify/tailwind](https://iconify.design/docs/usage/css/tailwind/#installation) 作为图标方案。
 - 集成了 [Alpine.js](https://alpinejs.dev/)。
-- 集成了 ESLint + Prettier。
 
 ## 开发
 
@@ -24,7 +23,7 @@ cd ~/halo2-dev/themes/theme-modern-starter
 ```
 
 ```bash
-pnpm install 
+pnpm install
 ```
 
 ```bash
