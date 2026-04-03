@@ -4,6 +4,9 @@
 
 主题开发文档可查阅：<https://docs.halo.run/developer-guide/theme/prepare>
 
+> [!WARNING]  
+> 此模板已过时，后续统一在 https://github.com/halo-dev/theme-vite-starter 维护。
+
 ## 特性
 
 - 使用 [Vite+](https://viteplus.dev/)。
